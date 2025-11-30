@@ -108,3 +108,9 @@ ul.tight li{margin:6px 0}
   h1{font-size:1.6rem}
   .thumb{flex-basis:100%}
 }
+
+.thumb.tall img {
+  object-fit: contain;
+  aspect-ratio: 3/4;
+  background: var(--surface);
+}
