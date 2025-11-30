@@ -1,6 +1,6 @@
 .profile-photo {
-  width: 180px;      /* taille plus petite */
-  height: 180px;     /* doit être égal à width */
+  width: 250px;      /* taille plus petite */
+  height: 250px;     /* doit être égal à width */
   border-radius: 50%;
   object-fit: cover;
   display: block;
