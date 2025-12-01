@@ -114,3 +114,10 @@ ul.tight li{margin:6px 0}
   aspect-ratio: 3/4;
   background: var(--surface);
 }
+.cv-section .card {
+  min-width: 260px;
+}
+
+.cv-section ul.tight li {
+  margin: 6px 0;
+}
