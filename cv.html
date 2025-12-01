@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Carla Bouvrot</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    /* Page CV style additions */
+    .cv-container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 24px;
+      background: var(--card);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .cv-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .cv-section {
+      margin-top: 32px;
+    }
+
+    .cv-section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+
+    .cv-section h3 {
+      margin: 6px 0 4px;
+      font-size: 1.1rem;
+    }
+
+    .cv-sub {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    ul.cv-list {
+      margin: 0;
+      padding-left: 20px;
+      line-height: 1.55;
+    }
+  </style>
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="logo-dot"></span>
+      <a href="index.html" class="brand-name">Carla Bouvrot</a>
+    </div>
+    <nav class="nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#travel">Academic Travel</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="cv-container">
+
+      <h1 class="cv-title">Curriculum Vitae</h1>
+
+      <!-- === SUMMARY === -->
+      <div class="cv-section">
+        <h2>Professional Summary</h2>
+        <p>
+          General Engineering graduate specializing in <strong>Materials & Sustainable Development</strong>,
+          with strong experience in <strong>CAD design (SolidWorks, TopSolid)</strong>, industrial processes,
+          IoT systems, and embedded programming. Skilled in technical documentation, workflow automation
+          (Power BI, Excel/VBA, Power Automate), and cross-functional project coordination.
+          Experienced in producing RAAS plans, 3D assemblies, and engineering documentation for production teams
+          and carrossiers. International background through academic programs in Israel and Norway.
+        </p>
+      </div>
+
+      <!-- === EXPERIENCE === -->
+      <div class="cv-section">
+        <h2>Professional Experience</h2>
+
+        <h3>Technical Project Assistant – Custom Tailored Trucks (CTT)</h3>
+        <div class="cv-sub">Mercedes-Benz Trucks, Molsheim — Sep 2025 to Sep 2026</div>
+        <ul class="cv-list">
+          <li>Prepared <strong>RAAS plans</strong>, technical drawings, and 3D models for carrossiers, ensuring full chassis compatibility.</li>
+          <li>Created clear engineering documentation to support truck customization and production workflows.</li>
+          <li>Developed KPI dashboards (lead time, order tracking, delivery reliability) improving reporting clarity for managers.</li>
+          <li>Automated recurring workflows with <strong>Excel/VBA</strong> and <strong>Power Automate</strong>, reducing manual processing by 40%.</li>
+          <li>Analyzed configuration constraints to support sales engineers and improve special-order feasibility assessments.</li>
+          <li>Collaborated with production and engineering teams in a trilingual environment (FR/EN/DE).</li>
+        </ul>
+
+        <h3>Engineering Project – IoT Greenhouse</h3>
+        <div class="cv-sub">ECAM Strasbourg-Europe — 2024</div>
+        <ul class="cv-list">
+          <li>Designed full electronic and embedded architecture using Arduino (C/C++).</li>
+          <li>Integrated sensors, actuators, and safe power management (5V/12V).</li>
+          <li>Performed wiring, PCB routing, and modular code structure for reliability.</li>
+          <li>Applied eco-design using 3D-printed and recyclable materials.</li>
+        </ul>
+      </div>
+
+      <!-- === SKILLS === -->
+      <div class="cv-section">
+        <h2>Skills</h2>
+
+        <h3>Technical</h3>
+        <ul class="cv-list">
+          <li>CAD: SolidWorks, TopSolid</li>
+          <li>Electronics & Embedded: Arduino, C/C++, sensors, actuators</li>
+          <li>Automation: Power BI, Excel advanced, Power Automate</li>
+          <li>Programming: C/C++, Python, VBA</li>
+          <li>Industrial: Lean / workflow optimization, prototyping</li>
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul class="cv-list">
+          <li>Teamwork, adaptability, problem-solving</li>
+          <li>Technical documentation & communication</li>
+          <li>Cross-cultural collaboration</li>
+        </ul>
+      </div>
+
+      <!-- === EDUCATION === -->
+      <div class="cv-section">
+        <h2>Education</h2>
+
+        <h3>General Engineering Degree — Materials & Sustainable Development</h3>
+        <div class="cv-sub">ECAM LaSalle Strasbourg-Europe — 2021 to 2026</div>
+
+        <h3>Erasmus Mobility</h3>
+        <ul class="cv-list">
+          <li>Technion – Israel Institute of Technology (2022–2023)</li>
+          <li>UIT The Arctic University of Norway, Narvik (2024)</li>
+        </ul>
+      </div>
+
+      <!-- === LANGUAGES === -->
+      <div class="cv-section">
+        <h2>Languages</h2>
+        <ul class="cv-list">
+          <li>French — Native</li>
+          <li>English — Professional (C1)</li>
+          <li>German — Intermediate (B1)</li>
+        </ul>
+      </div>
+
+      <!-- === INTERESTS === -->
+      <div class="cv-section">
+        <h2>Interests</h2>
+        <p>Sustainable technology, travel, embedded systems, data automation, engineering design.</p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Carla Bouvrot</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
